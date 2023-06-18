@@ -1,0 +1,43 @@
+.thumbnail{
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+.img1{
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+
+}
+.img2{
+    width: 36px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position:center;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+}
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 38px 1fr;
+
+}
+.video-time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 11px;
+    right: 5px;
+    font-size: 12px;
+    font-family: Roboto,arial;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+
+}
+
